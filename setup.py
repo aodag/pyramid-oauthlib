@@ -53,7 +53,7 @@ setup(
     exclude_package_data={'': ['.gitignore']},
     include_package_data=True,
     install_requires=['pyramid', 'oauthlib'],
-    packages=find_packages(),
+    packages=find_packages(exclude=["examples"]),
     setup_requires=['setuptools_git'],
     tests_require=['mock', 'pytest', 'pytest-cov'],
     zip_safe=False,
