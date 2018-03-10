@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ request.static_url('deform:static/css/bootstrap.min.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            {{ form.render()|safe }}
+        </div>
+    </body>
+</html>

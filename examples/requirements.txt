@@ -1,0 +1,8 @@
+-e ..
+pyramid_tm
+pyramid_jinja2
+pyramid_sqlalchemy
+waitress
+deform
+colander
+requests-oauthlib
